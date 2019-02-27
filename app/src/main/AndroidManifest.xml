@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.klcxkj.watercard_anjie">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+    <application
+        android:name=".MyApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.klcxkj.reshui.ACT_CardCenter"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme" />
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_CampusCardApply"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme"/>
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_CampusCardBind"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme" />
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_CampusCardLoss"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme" />
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_FillCard"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme"/>
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_CampusCardApplyRechageReport"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme" />
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_Rechage"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_Rechage_Recording"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme" />
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_BuildingChose"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_RoomChose"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name="com.klcxkj.reshui.activity.ACT_ApplyCard_Rechge"
+            android:theme="@style/kTheme"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.klcxkj.reshui.activity.ACT_PassSetting"
+            android:theme="@style/kTheme"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.klcxkj.reshui.activity.ACT_BillActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/kTheme" />
+    </application>
+
+</manifest>
