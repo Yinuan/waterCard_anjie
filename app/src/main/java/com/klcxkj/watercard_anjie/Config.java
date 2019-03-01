@@ -9,6 +9,6 @@ package com.klcxkj.watercard_anjie;
 
 public class Config {
     //ip地址
-    public static  final String BASE_URL ="http://app.anjie-elec.cn:10002/";
+    public static  final String BASE_URL ="https://app.anjie-elec.cn:8443/";
 
 }
