@@ -5,7 +5,7 @@ android {
 
     defaultConfig {
         applicationId "com.klcxkj.watercard_anjie"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
